@@ -1,0 +1,71 @@
+.container {
+    position: absolute;
+    background-color: rgb(20, 1, 20);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 0.5%;
+}
+.forms {
+    position: relative;
+    background-color: rgb(207, 250, 216);
+    height: min-content;
+    width: 20%;
+    border: 3px inset rgb(30, 29, 29);
+    border-radius: 5px;
+    text-align: justify;
+    padding: 1%;
+    margin: auto;
+    color: rgb(30, 29, 29);
+    box-shadow: inset;
+}
+
+
+.items {
+    position: relative;
+    border: 3px inset rgb(30, 29, 29);
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.button {
+    float: inline-end;
+    cursor: pointer;
+}
+
+input {
+    height: 100;
+}
+
+.flexCard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.flexCard div {
+    flex-basis: 25%;
+    margin: auto;
+    background-color: rgb(207, 250, 216);
+}
+
+h2 {
+    color: rgb(30, 29, 29);
+    text-align: center;
+}
+
+select {
+    cursor: pointer;
+}
+
+.issues {
+    text-align: center;
+    cursor: move;
+}
+
+select {
+    margin-left: 4px;
+}
+
+.input {
+    width: 265px;
+}
